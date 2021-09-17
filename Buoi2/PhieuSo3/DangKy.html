@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Đăng ký</title>
+  <style>
+    * {
+      padding: 5px;
+    }
+    table {
+      width: 750px;
+      border-collapse: collapse;
+    }
+
+  </style>
+</head>
+<body>
+  <div>
+    <form method="POST">
+      <table border="1">
+        <caption><h1>Phiếu đăng ký tham gia chương trình khuyến mãi</h1></caption>
+        <tbody>
+          <tr>
+            <th>Họ và tên</th>
+            <td><input type="text" style="width: 350px"/></td>
+          </tr>
+          <tr>
+            <th>Địa chỉ</th>
+            <td><input type="text" style="width: 300px"/></td>
+          </tr>
+          <tr>
+            <th>Điện thoại</th>
+            <td><input type="text" style="width: 250px"/></td>
+          </tr>
+          <tr>
+            <th>Phái</th>
+            <td>
+              <input type="radio" id="html" name="fav_language" value="HTML">
+              <label for="html">Nam</label>
+              <input type="radio" id="css" name="fav_language" value="CSS">
+              <label for="css">Nữ</label>
+          </td>
+          </tr>
+          <tr>
+            <th>Nghề nghiệp</th>
+            <td>
+              <select name="cars" id="cars">
+                <option value="volvo">Giáo viên</option>
+                <option value="saab">Bác sĩ</option>
+                <option value="mercedes">Giám đốc</option>
+                <option value="audi">Nông dân</option>
+              </select>
+            </td>
+          </tr>
+          <tr>
+            <th>Chọn sản phẩm tham gia</th>
+            <td>
+              <select name="cars" id="cars">
+                <option value="volvo">Kem đánh răng</option>
+                <option value="saab">Bột giặt</option>
+                <option value="mercedes">Dầu gội đầu</option>
+                <option value="audi">Sữa tắm</option>
+              </select>
+            </td>
+          </tr>
+          <tr>
+            <th>Số người dự đoán tham gia</th>
+            <td><input type="number" style="width: 100px" /></td>
+          </tr>
+          <tr>
+            <th colspan="2">
+              <input type="submit" value="Đồng ý" style="margin-right: 100px; width: 100px"/>
+            </th>
+          </tr>
+        </tbody>
+      </table>
+    </form>
+  </div>
+</body>
+</html>
