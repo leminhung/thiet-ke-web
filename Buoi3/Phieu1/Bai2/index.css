@@ -1,0 +1,29 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #ffd2ff;
+}
+.container {
+  width: 800px;
+  transform: translate(-50%, 0);
+  margin-left: 50%;
+  margin-top: 200px;
+}
+
+.title {
+  color: #4c5fa0;
+  text-align: center;
+  text-transform: uppercase;
+}
+.content {
+  letter-spacing: 3px;
+  text-indent: 50px;
+}
+
+span {
+  color: slateblue;
+}

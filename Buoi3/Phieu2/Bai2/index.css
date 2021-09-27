@@ -1,0 +1,30 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.container {
+  background-color: #a06d21;
+  width: 800px;
+  margin-left: 50%;
+  transform: translate(-50%, 0);
+  margin-top: 100px;
+}
+
+.content {
+  background: transparent url(../../helper/img/Dragon.jpg) no-repeat fixed;
+  background-position: 85% 60%;
+}
+
+.content > p {
+  color: white;
+  padding: 0 10px 50px 10px;
+}
+
+h1 {
+  text-align: center;
+  color: #ffcc00;
+  padding: 30px 0;
+}

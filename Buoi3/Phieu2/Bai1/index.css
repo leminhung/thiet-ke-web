@@ -1,0 +1,24 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+div {
+  background-color: cornflowerblue;
+  width: 800px;
+  margin-left: 50%;
+  transform: translate(-50%, 0);
+  margin-top: 200px;
+}
+h1 {
+  padding-left: 300px;
+  padding-top: 30px;
+  color: wheat;
+  padding-bottom: 30px;
+}
+
+.author {
+  padding-left: 30px;
+  padding-bottom: 30px;
+}

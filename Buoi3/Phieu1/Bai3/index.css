@@ -1,0 +1,44 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  width: 800px;
+  transform: translate(-50%, 0);
+  margin-left: 50%;
+  margin-top: 200px;
+  text-align: center;
+}
+
+.title {
+  text-transform: uppercase;
+  background-color: #fecffd;
+  color: #ff3399;
+  margin-bottom: 20px;
+}
+.content {
+  background-color: #ffffcc;
+}
+
+hr {
+  width: 60%;
+  margin-bottom: 30px;
+  transform: translate(-50%, 0);
+  margin-left: 50%;
+}
+
+pre {
+  font-style: italic;
+  font-weight: 600;
+}
+.ct1 {
+  color: blueviolet;
+}
+.ct2 {
+  color: #ff3399;
+}
+.ct3 {
+  color: chocolate;
+}
