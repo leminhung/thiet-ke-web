@@ -12,16 +12,20 @@ body {
   transform: translate(-50%, 0);
   margin-left: 50%;
   margin-top: 200px;
+  border: 2px solid teal;
+  padding: 20px 5px;
 }
 
 .title {
   color: #4c5fa0;
   text-align: center;
   text-transform: uppercase;
+  padding-bottom: 20px;
 }
 .content {
   letter-spacing: 3px;
   text-indent: 50px;
+  text-align: justify;
 }
 
 span {

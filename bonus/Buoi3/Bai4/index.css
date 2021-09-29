@@ -1,0 +1,25 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-image: url("./428271.jpg");
+  /* background-color: */
+  background-repeat: no-repeat;
+  background-attachment: no-repeat;
+  background-position: center center;
+  color: #008888;
+}
+h1 {
+  padding: 20px 0;
+  text-align: center;
+}
+
+.ct1 {
+  color: #ffffff;
+  background-color: #339999;
+  font-style: italic;
+  margin-bottom: 20px;
+}

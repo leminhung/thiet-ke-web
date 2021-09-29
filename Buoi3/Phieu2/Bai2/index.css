@@ -2,20 +2,16 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: Tahoma, Geneva, Verdana, sans-serif;
+  font-family: Tahoma, Verdana, sans-serif;
 }
 
-.container {
+body {
+  background-image: url(../../helper/img/Dragon.jpg);
+  background-size: 250px 200px;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center center;
   background-color: #a06d21;
-  width: 800px;
-  margin-left: 50%;
-  transform: translate(-50%, 0);
-  margin-top: 100px;
-}
-
-.content {
-  background: transparent url(../../helper/img/Dragon.jpg) no-repeat fixed;
-  background-position: 85% 60%;
 }
 
 .content > p {

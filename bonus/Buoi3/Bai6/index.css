@@ -1,0 +1,42 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  width: 800px;
+  margin-left: 50%;
+  transform: translate(-50%, 0);
+  border: 1px solid black;
+  padding: 10px;
+}
+
+h1 {
+  padding: 20px 0;
+  text-align: center;
+  border: 2px solid tan;
+  text-transform: uppercase;
+  margin: 5px 10px 0 5px;
+  padding: 0 0 30px 0;
+}
+
+.custom {
+  font-size: 50px;
+}
+.highlight {
+  background-color: coral;
+}
+
+.ct1 {
+}
+.ct2 {
+  font-size: 24px;
+  background-color: cornflowerblue;
+  text-align: right;
+  margin: 20px 0;
+}
+
+.ct3 {
+  text-align: right;
+}
