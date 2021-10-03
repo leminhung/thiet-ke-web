@@ -1,0 +1,25 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+table {
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+th,
+td {
+  padding: 5px;
+}
+thead {
+  background-color: orange;
+  color: white;
+}
+
+h1 {
+  background-color: orange;
+  text-transform: uppercase;
+  border-bottom: 3px solid black;
+  padding-bottom: 4px;
+}

@@ -1,0 +1,13 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+div {
+  padding: 25px;
+  margin: 25px;
+  background-color: skyblue;
+  width: 200px;
+  border: 25px solid blue;
+}

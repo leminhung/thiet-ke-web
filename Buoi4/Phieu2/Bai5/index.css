@@ -1,0 +1,40 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.list {
+  color: white;
+  font-weight: 600;
+}
+li {
+  list-style-type: none;
+  padding: 20px;
+  background-color: blue;
+  width: 200px;
+}
+
+.list > li:hover {
+  background-color: red;
+}
+
+.relative {
+  position: relative;
+}
+.subnav {
+  display: none;
+}
+.subnav > li {
+  background-color: red !important;
+}
+a {
+  color: white;
+  text-decoration: none;
+}
+.relative:hover .subnav {
+  display: block;
+  position: absolute;
+  top: -1px;
+  left: 200px;
+}
