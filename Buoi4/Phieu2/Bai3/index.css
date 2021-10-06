@@ -11,7 +11,7 @@
   display: flex;
   width: 500px;
 }
-li {
+.list > li {
   list-style-type: none;
   padding: 20px;
   background-color: blue;
@@ -32,6 +32,8 @@ li {
 }
 a {
   color: white;
+  display: block;
+  padding: 20px;
 }
 .relative:hover .subnav {
   display: flex;

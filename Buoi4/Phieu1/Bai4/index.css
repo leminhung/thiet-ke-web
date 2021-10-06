@@ -5,13 +5,10 @@
   list-style-type: none;
 }
 
-body {
-  background-color: #facfcf;
-}
-
 .container {
   width: 960px;
   margin-left: 60px;
+  background-color: #facfcf;
 }
 .navbar ul {
   display: flex;
@@ -38,7 +35,7 @@ body {
 }
 
 .sidebar ul li {
-  padding: 10px 0;
+  padding: 10px 5px;
 }
 
 h3 {
@@ -51,4 +48,12 @@ h3 {
 
 span {
   color: white;
+}
+
+.custom {
+  padding-right: 30px !important;
+}
+
+.ctt {
+  padding: 10px 50px;
 }
