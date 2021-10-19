@@ -1,0 +1,28 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.cal {
+  margin-left: 50%;
+  transform: translate(-50%, 0);
+}
+
+.display {
+  margin-top: 200px;
+  border: 1px solid tan;
+  width: 329px;
+}
+
+input {
+  padding: 20px;
+}
+
+.result {
+  outline: none;
+  border: none;
+}
+.row {
+  margin-top: 10px;
+}

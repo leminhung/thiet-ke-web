@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tra tuoi</title>
+  <style>
+    * {
+      padding: 5px;
+    }
+    table {
+      background-color: cyan;
+    }
+    .result {
+      background: white;
+      border: 1px solid teal;
+    }
+  </style>
+</head>
+<body>
+  <form>
+    <table border="1">
+      <thead>
+        <tr>
+          <th colspan="2">Chương trình tra tuổi</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <th>Tuổi dương lịch</th>
+          <td><input type="text" class="age"></td>
+        </tr>
+        <tr>
+          <th>Tuổi âm lịch</th>
+          <td><input type="text" class="result" disabled></td>
+        </tr>
+      </tbody>
+      <tfoot>
+        <tr>
+          <th colspan="2">
+            <button type="reset">Xoá</button>
+            <button type="submit" class="btn">Tra cứu</button>
+          </th>
+        </tr>
+      </tfoot>
+    </table>
+  </form>
+  <script src="./index.js"></script>
+</body>
+</html>
