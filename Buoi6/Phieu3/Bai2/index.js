@@ -4,11 +4,15 @@ const inputElement = document.querySelector("input");
 
 btnElement.addEventListener("click", (e) => {
   e.preventDefault();
-  const value = inputElement.value;
+  const value = inputElement.value.trim();
   const test = isNumeric(value);
-  if (test) {
-    resultElement.textContent = "Dữ liệu hợp lệ";
-  } else resultElement.textContent = "Dữ liệu không hợp lệ";
+  if (value) {
+    if (test && value < 11 && value > 0) {
+      resultElement.textContent = "Dữ liệu hợp lệ";
+    } else resultElement.textContent = "Dữ liệu không hợp lệ";
+  } else {
+    alert("Input something to check");
+  }
 });
 
 function isNumeric(n) {
