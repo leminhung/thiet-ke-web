@@ -3,20 +3,3 @@
   padding: 0;
   box-sizing: border-box;
 }
-
-.contain,
-.day,
-.month,
-.year {
-  display: flex;
-}
-
-p {
-  padding: 0 5px;
-}
-
-.contain {
-  margin-left: 50%;
-  transform: translate(-50%, 0);
-  margin-top: 200px;
-}

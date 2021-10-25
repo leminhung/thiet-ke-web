@@ -1,8 +1,8 @@
 const element = document.querySelector(".result");
 console.log("[element]", element);
 
-const a = 6,
-  b = 4,
+const a = 4,
+  b = 6,
   c = 2;
 const delta = b * b - 4 * a * c;
 console.log("[delta]", delta);

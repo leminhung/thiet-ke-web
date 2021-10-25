@@ -31,7 +31,7 @@ const chi = [
 btnElement.addEventListener("click", (e) => {
   e.preventDefault();
   console.log("le minh hung");
-  const year = 2021 - inputElement.value;
+  const year = inputElement.value;
   let d = year % 10;
   let a = year % 12;
   let result = can[d] + " " + chi[a];
