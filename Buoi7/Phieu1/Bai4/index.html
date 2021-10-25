@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <style>
+    * {
+      padding: 5px;
+    }
+    div {
+      display: flex;
+    }
+    p {
+      min-width: 150px;
+    }
+    input {
+      height: 20px;
+      margin-top: 16px;
+    }
+    .btn {
+      margin-left: 156px;
+    }
+    button {
+      padding: 6px 8px;
+      margin: 0 5px;
+    }
+  </style>
+</head>
+<body>
+  <div class="number1">
+    <p>So thu nhat:</p>
+    <input type="text" onchange="turn1(value)" value="">
+  </div>
+  <div class="btn">
+    <button value="+" onclick="turn('+')">+</button>
+    <button value="-" onclick="turn('-')">-</button>
+    <button value="*" onclick="turn('*')">*</button>
+    <button value="/" onclick="turn('/')">/</button>
+    <button value="^" onclick="turn('^')">^</button>
+  </div>
+  <div class="number2">
+    <p>So thu hai:</p>
+    <input type="text" onchange="turn2(value)" value="">
+  </div>
+  <div class="result">
+    <p>Ket qua:</p>
+    <input type="text">
+  </div>
+  <script src="./index.js"></script>
+</body>
+</html>

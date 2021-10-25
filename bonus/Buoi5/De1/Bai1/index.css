@@ -1,0 +1,164 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style-type: none;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.container {
+  margin-left: 40%;
+  margin-top: 100px;
+  transform: translate(-50%, 0);
+}
+
+.head > ul {
+  display: flex;
+  text-transform: uppercase;
+  padding-top: 20px;
+}
+
+.header > li > a {
+  width: 100px;
+  color: black;
+  padding: 0 30px;
+}
+
+.header > li:hover > a {
+  color: #00cc33;
+}
+
+.head > input {
+  font-size: 24px;
+  display: inline-block;
+}
+
+/*  */
+
+.main {
+  display: flex;
+}
+
+.menu > .title {
+  padding: 20px 30px;
+  background-color: #ff3366;
+  color: white;
+  text-transform: uppercase;
+}
+
+.menu > ul > li {
+  border: 1px solid teal;
+  text-transform: uppercase;
+}
+.menu > ul {
+  width: 250px;
+}
+
+.subnav {
+  display: none;
+  position: absolute;
+  width: 250px;
+  color: black;
+  background-color: white;
+  border: 1px solid teal;
+}
+
+a {
+  line-height: 50px;
+  padding-left: 20px;
+}
+
+.women {
+  position: relative;
+}
+
+.menu:hover {
+  color: #336699;
+}
+
+.women:hover > .subnav {
+  display: inline-block;
+  top: -53px;
+  left: 162px;
+}
+
+/*  */
+
+.content {
+  margin-left: 250px;
+  display: flex;
+}
+
+.content > img {
+  width: 250px;
+  height: 330px;
+  margin-right: 40px;
+}
+
+/* 
+ */
+
+.ct1,
+.ct2,
+.ct3,
+.ct4,
+.ct5 {
+  padding-bottom: 20px;
+}
+
+.content > div {
+  width: 400px;
+}
+
+.ct3 {
+}
+
+.ct4 {
+  color: #ff3366;
+}
+
+.ct5 {
+  text-transform: uppercase;
+}
+
+.ct6 {
+  display: flex;
+  margin-bottom: 20px;
+}
+.ct6 > li > button {
+  padding: 15px;
+  background-color: aqua;
+  margin-right: 10px;
+  border: 1px solid tan;
+}
+
+.ct6 > li > button:hover {
+  background-color: #ff3366;
+}
+
+.ct7 {
+  text-decoration: underline;
+  float: right;
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+}
+
+.input {
+  margin-top: 60px;
+  display: flex;
+  flex-direction: column;
+}
+
+.buy {
+  display: inline-block;
+  width: 250px;
+  text-align: center;
+}
+
+.buy2 {
+  display: inline-block;
+  width: 250px;
+  text-align: center;
+}

@@ -1,0 +1,44 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style-type: none;
+}
+
+.nav {
+  display: flex;
+  background-color: black;
+  color: white;
+  text-transform: uppercase;
+  justify-content: space-between;
+  padding: 20px 16px;
+}
+
+span {
+  color: red;
+}
+
+/* menu */
+.subnav {
+  /* display: none; */
+  position: absolute;
+}
+.subnav > li > a,
+.menu1 > ul > li > a {
+  background-color: tan;
+  padding: 16px 0 16px 16px;
+  display: inline-block;
+  text-transform: capitalize;
+}
+.menu1 > li,
+.menu1 > ul > li {
+  background-color: tan;
+  padding: 16px 0 16px 16px;
+  width: 200px;
+  border-bottom: 1px solid blueviolet;
+}
+
+.custom {
+  position: relative;
+}
