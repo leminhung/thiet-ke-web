@@ -1,0 +1,157 @@
+* {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  text-decoration: none;
+  box-sizing: border-box;
+}
+
+nav {
+  background-color: white;
+  display: flex;
+  justify-content: space-between;
+  padding: 0 20px;
+}
+
+/* search */
+input {
+  display: block;
+  font-size: 16px;
+  width: 500px;
+  padding: 8px;
+  margin-top: 5px;
+}
+
+.search {
+  width: fit-content;
+}
+.title > img {
+  padding-top: 10px;
+}
+
+.search ul {
+  display: flex;
+}
+
+.search ul li {
+  width: 132px;
+}
+
+.search ul li a {
+  color: black;
+  font-weight: 600;
+  display: block;
+  line-height: 50px;
+  text-align: center;
+  text-transform: uppercase;
+}
+.search ul li a:hover {
+  color: #00cc33;
+}
+
+/* menu */
+.menu {
+  width: 250px;
+}
+
+.menu > ul {
+}
+
+.menu > ul > li {
+  width: 250px;
+  border-bottom: 1px solid #ff3366;
+  border-left: 1px solid #ff3366;
+  border-right: 1px solid #ff3366;
+}
+.menu ul li a {
+  text-transform: uppercase;
+  font-weight: 600;
+  display: block;
+  padding-left: 32px;
+  line-height: 50px;
+  color: black;
+}
+.menu > ul > li:hover > a {
+  color: #336699;
+  background-color: pink;
+}
+
+.parent {
+  position: relative;
+}
+
+.subnav {
+  display: none;
+  position: absolute;
+  top: -50px;
+  left: 250px;
+  width: 250px;
+}
+.subnav li a {
+  text-transform: capitalize !important;
+}
+.subnav li:hover a {
+  background-color: wheat;
+}
+
+.parent:hover .subnav {
+  display: block;
+}
+
+/* title1 */
+.tl1 {
+  background-color: #ff3366;
+  color: white;
+  font-weight: 600;
+  text-align: center;
+  display: block;
+  line-height: 60px;
+  text-transform: uppercase;
+}
+
+/* main */
+.main {
+  padding: 20px 30px;
+  display: flex;
+}
+
+/* content */
+
+.custom {
+  display: flex;
+}
+.content {
+  margin-left: 300px;
+  display: flex;
+}
+
+.detail {
+  display: flex;
+  flex-direction: column;
+  margin-left: 30px;
+}
+.detail button {
+  padding: 10px;
+  margin: 12px;
+}
+
+.detail > p {
+  padding: 8px;
+  text-transform: uppercase;
+}
+
+.tl11,
+.tl2 {
+  font-weight: 600;
+}
+
+.tl2 {
+  font-size: 24px;
+}
+
+.btn1,
+.btn2 {
+  text-transform: uppercase;
+  margin-top: 12px !important;
+  margin-bottom: 0 !important;
+}

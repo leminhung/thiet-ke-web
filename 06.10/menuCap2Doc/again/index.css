@@ -1,0 +1,51 @@
+* {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  list-style-type: none;
+}
+
+nav {
+  width: 250px;
+}
+
+nav ul {
+  background-color: blue;
+}
+
+nav ul li {
+  width: 250px;
+}
+
+nav ul li a {
+  display: block;
+  color: aliceblue;
+  font-weight: 600;
+  padding-left: 12px;
+  line-height: 50px;
+}
+
+nav ul li:hover a {
+  background-color: red;
+}
+
+.parent {
+  position: relative;
+}
+
+.subnav {
+  position: absolute;
+  left: 250px;
+  background-color: red;
+  top: 0;
+  width: 250px;
+  display: none;
+}
+.subnav > li:hover > a {
+  color: red;
+  background-color: yellow;
+}
+
+.parent:hover .subnav {
+  display: block;
+}

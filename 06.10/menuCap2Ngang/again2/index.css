@@ -1,0 +1,47 @@
+* {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  text-decoration: none;
+}
+
+nav > ul {
+  display: flex;
+  width: fit-content;
+  background-color: tomato;
+}
+
+nav ul li {
+  width: 96px;
+}
+
+nav ul li a {
+  display: block;
+  line-height: 50px;
+  text-align: center;
+  font-weight: 600;
+  color: aliceblue;
+}
+
+nav ul li:hover a {
+  background-color: violet;
+}
+
+.parent {
+  position: relative;
+}
+
+.parent:hover .subnav {
+  display: flex;
+}
+
+.subnav {
+  position: absolute;
+  top: 50px;
+  left: -96px;
+  display: none;
+}
+.subnav li:hover a {
+  background-color: burlywood;
+  color: chartreuse;
+}

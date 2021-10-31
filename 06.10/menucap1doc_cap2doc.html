@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Minh họa menu đứng</title>
+	<meta charset="utf-8">
+	<style type="text/css">
+		*{
+			margin:0px;
+			padding:0px;
+		}
+		nav{
+			width:250px;
+
+		}
+		nav ul{
+			list-style-type: none;
+			background-color: blue;
+		}
+		nav ul li{
+			width: 250px;
+		}
+		nav ul li a{
+			text-decoration: none;
+			color:white;
+			display: block;
+			line-height: 50px;
+			font-size: 16px;
+			font-weight: bold;
+			font-family: Cambria;
+			padding-left: 10px;
+
+		}
+		nav ul li a:hover{
+			background-color: red;
+		}
+		.cha{
+			position: relative;
+		}
+		#cap2{
+			position: absolute;
+			width: 250px;
+			background-color: red;
+			left:250px;
+			top:0px;
+			display: none;
+
+		}
+		.cha:hover #cap2{
+			display: block;
+		}
+	</style>
+</head>
+<body>
+	<nav>
+		<ul>
+			<li class="cha"><a href="#">Chính trị-xã hội</a>
+				<ul id="cap2">
+					<li><a href="#">Thư viện pháp luật</a></li>
+					<li><a href="#">Sống khỏe</a></li>
+					<li><a href="#">Pháp luật</a></li>
+				</ul>
+			</li>
+			<li><a href="#">Thế giới</a></li>
+			<li><a href="#">Nhịp sống trẻ</a></li>
+			<li><a href="#">Giáo dục</a></li>
+			<li><a href="#">Kinh tế</a></li>
+		</ul>
+	</nav>
+</body>
+</html>

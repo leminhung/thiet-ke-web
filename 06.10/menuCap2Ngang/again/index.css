@@ -1,0 +1,58 @@
+* {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  text-decoration: none;
+}
+
+nav > ul {
+  display: flex;
+  background-color: blue;
+  width: fit-content;
+}
+
+nav ul li {
+  width: 80px;
+}
+
+nav ul li a {
+  display: block;
+  color: aliceblue;
+  font-weight: 600;
+  line-height: 50px;
+  text-align: center;
+}
+
+nav > ul > li:hover > a {
+  background-color: red;
+}
+
+.parent {
+  position: relative;
+}
+
+.parent:hover .subnav {
+  display: block;
+}
+
+.subnav {
+  background-color: darkseagreen !important;
+  display: none;
+  width: 120px;
+  position: absolute;
+  top: 50px;
+}
+
+.subnav li a {
+  text-align: left;
+  padding-left: 30px;
+}
+
+.subnav li {
+  width: 120px;
+}
+
+.subnav li:hover a {
+  color: red;
+  background-color: yellow;
+}

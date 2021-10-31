@@ -1,0 +1,50 @@
+* {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  text-decoration: none;
+}
+
+nav {
+  width: 200px;
+}
+
+nav ul {
+  background-color: blue;
+}
+
+nav ul li {
+  width: 200px;
+}
+
+nav ul li a {
+  display: block;
+  color: aliceblue;
+  line-height: 50px;
+  padding-left: 12px;
+  font-weight: 600;
+}
+
+nav ul li:hover a {
+  background-color: red;
+}
+
+.parent {
+  position: relative;
+}
+
+.subnav {
+  display: none;
+  width: 200;
+  position: absolute;
+  left: 200px;
+  top: 0;
+}
+.subnav li a:hover {
+  color: red;
+  background-color: yellow;
+}
+
+.parent:hover .subnav {
+  display: block;
+}

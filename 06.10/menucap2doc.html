@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Minh họa menu cấp 2</title>
+	<meta charset="utf-8">
+	<style type="text/css">
+		*{
+			margin:0px;
+			padding: 0px;
+		}
+		nav{
+			width: 100%;
+			background-color: blue;
+			height: 50px;
+		}
+		nav ul{
+			list-style-type: none;
+		}
+		nav>ul>li{
+			display: inline-block;
+			width:120px;
+			border-right: 1px solid gray;
+		}
+		nav ul li a{
+			text-decoration: none;
+			color:white;
+			line-height: 50px;
+			text-align: center;
+			display: block;
+		}
+		nav ul li a:hover{
+			background-color: red;
+		}
+		.cha{
+			position: relative;
+		}
+		#cap2{
+			width: 200px;
+			position: absolute;
+			background-color: red;
+			
+			display: none;
+		}
+		#cap2>li>a{
+			text-align: left;
+			padding-left: 10px;
+		}
+		#cap2>li>a:hover{
+			background-color: yellow;
+			color:red;
+		}
+		.cha:hover #cap2{
+			display: block;
+		}
+	</style>
+</head>
+<body>
+<nav>
+	<ul>
+		<li><a href="#">Chính trị-xã hội</a></li>
+		<li class="cha"><a href="#">Thế giới</a>
+			<ul id="cap2">
+				<li><a href="#">Nhịp sống trẻ</a></li>
+		<li><a href="#">Giáo dục</a></li>
+		<li><a href="#">Kinh tế</a></li>
+			</ul>
+
+		</li>
+		<li><a href="#">Nhịp sống trẻ</a></li>
+		<li><a href="#">Giáo dục</a></li>
+		<li><a href="#">Kinh tế</a></li>
+	</ul>
+</nav>
+</body>
+</html>

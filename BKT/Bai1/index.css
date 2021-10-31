@@ -1,0 +1,179 @@
+* {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  box-sizing: border-box;
+  text-decoration: none;
+}
+
+a {
+  text-transform: uppercase;
+  color: black;
+}
+
+p {
+  text-transform: uppercase;
+  font-weight: 600;
+  margin: 8px 0;
+}
+
+/* nav */
+nav {
+  padding: 0 20px;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 10px;
+}
+
+.search > ul {
+  display: flex;
+  width: fit-content;
+}
+
+.search > ul > li {
+  width: 128px;
+}
+
+.search > ul > li > a {
+  font-weight: 600;
+  line-height: 50px;
+}
+.search > ul > li:hover > a {
+  color: #00cc33;
+}
+
+.search > input {
+  padding: 8px 5px;
+  width: max-content;
+  width: 500px;
+}
+
+/* main */
+.main {
+  display: flex;
+  padding: 20px 30px;
+}
+
+/* menu */
+
+.menu {
+  width: 250px;
+}
+
+.menu > .title {
+  background-color: #ff3366;
+  line-height: 60px;
+  color: white;
+  display: block;
+  text-align: center;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+/* ul */
+.menu > ul {
+  background-color: white;
+}
+
+.menu > ul > li {
+  width: 250px;
+  border-left: 1px solid wheat;
+  border-right: 1px solid wheat;
+  border-bottom: 1px solid wheat;
+}
+
+.menu ul li a {
+  display: block;
+  font-weight: 600;
+  line-height: 50px;
+  text-align: left;
+  padding-left: 30px;
+}
+.menu > ul > li:hover > a {
+  background-color: violet;
+  color: #336699;
+}
+
+.parent {
+  position: relative;
+}
+
+.parent:hover .subnav {
+  display: block;
+}
+
+/* subnav */
+.subnav {
+  display: none;
+  position: absolute;
+  left: 250px;
+  top: -50px;
+  width: 250px;
+}
+
+.subnav li a {
+  text-transform: capitalize !important;
+}
+.subnav li:hover a {
+  background-color: yellow;
+  color: #ff3366;
+}
+
+/* content */
+.content {
+  display: flex;
+  margin-left: 230px;
+}
+
+/* detail */
+.detail {
+  display: flex;
+  flex-direction: column;
+  margin-left: 24px;
+}
+.tl2 {
+  font-size: 24px;
+}
+
+.tl3 {
+  text-decoration: line-through;
+  font-weight: 500;
+}
+.tl4 {
+  color: red;
+  font-weight: 500;
+}
+
+.btn > button {
+  padding: 8px;
+  background-color: white;
+}
+.btn > button:hover {
+  background-color: salmon;
+}
+
+button {
+  text-transform: uppercase;
+  padding: 8px;
+  margin: 8px;
+  border: 1px solid teal;
+}
+button:hover {
+  cursor: pointer;
+}
+
+.cus {
+  background-color: black;
+  color: white;
+}
+.cus:hover {
+  background-color: red;
+}
+.cus2 {
+  background-color: white;
+  color: black;
+}
+
+.cus2:hover {
+  background-color: green;
+  color: white;
+}
