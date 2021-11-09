@@ -1,0 +1,193 @@
+* {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  text-decoration: none;
+}
+
+a {
+  color: black;
+}
+
+.red {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 20px;
+  background-color: red;
+  color: white;
+  font-weight: 600;
+  align-items: center;
+}
+
+.red .cus ul,
+.cuss ul {
+  display: flex;
+}
+
+.red .cus ul li,
+.cuss ul li {
+  width: 120px;
+}
+
+.red .cus ul li a {
+  line-height: 30px;
+  display: block;
+  color: white;
+  font-weight: 600;
+}
+
+.detail {
+  display: flex;
+  padding: 20px;
+  align-items: center;
+  justify-content: space-between;
+  font-weight: 600;
+}
+
+input,
+.tl1,
+.contact {
+  font-size: 20px;
+}
+
+span:hover {
+  color: red;
+}
+
+.nav {
+  border: 1px solid teal;
+}
+
+/* menu */
+/* nav */
+nav {
+  padding: 0 20px;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 10px;
+}
+
+.search > ul {
+  display: flex;
+  width: fit-content;
+}
+
+.search > ul > li {
+  width: 128px;
+}
+
+.search > ul > li > a {
+  font-weight: 600;
+  line-height: 50px;
+}
+.search > ul > li:hover > a {
+  color: #00cc33;
+}
+
+.search > input {
+  padding: 8px 5px;
+  width: max-content;
+  width: 500px;
+}
+
+/* main */
+.main {
+  display: flex;
+  padding: 20px 30px;
+}
+
+/* menu */
+
+.menu {
+  width: 250px;
+}
+
+.menu > .title {
+  background-color: #ff3366;
+  line-height: 60px;
+  color: white;
+  display: block;
+  text-align: center;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+/* ul */
+.menu > ul {
+  background-color: #cccccc;
+}
+
+.menu > ul > li {
+  width: 250px;
+  border-left: 1px solid wheat;
+  border-right: 1px solid wheat;
+  border-bottom: 1px solid wheat;
+}
+
+.menu ul li a {
+  display: block;
+  font-weight: 600;
+  line-height: 50px;
+  text-align: left;
+  padding-left: 30px;
+  text-transform: capitalize;
+  color: black;
+}
+.menu > ul > li:hover > a {
+  background-color: violet;
+  color: #ffff00;
+}
+
+.parent {
+  position: relative;
+}
+
+.parent:hover .subnav {
+  display: block;
+}
+
+/* subnav */
+.subnav {
+  display: none;
+  position: absolute;
+  left: 250px;
+  top: -50px;
+  width: 250px;
+  background-color: white;
+}
+
+.subnav li a {
+  text-transform: capitalize !important;
+}
+.subnav li:hover a {
+  color: black;
+}
+
+/* mainn */
+.mainn {
+  display: flex;
+}
+
+.ct1 {
+  display: flex;
+  justify-content: space-between;
+}
+
+.ct1 .addresss {
+  background-color: yellow;
+  color: white;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 50px;
+  width: 300px;
+}
+
+.cuss {
+  margin-left: 120px;
+}
+
+.cuss ul li a {
+  line-height: 30px;
+  display: block;
+  color: black;
+  font-weight: 600;
+}

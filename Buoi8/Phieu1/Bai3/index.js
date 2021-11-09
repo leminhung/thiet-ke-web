@@ -30,7 +30,7 @@ for (let i = 0; i < size; i++) {
       check[j] = true;
     }
   }
-  if (!check[i]) {
+  if (!check[i] && ans > 1) {
     const child = document.createElement("li");
     child.innerHTML = `${a[i]} (${ans} times)`;
     ulElement.appendChild(child);
