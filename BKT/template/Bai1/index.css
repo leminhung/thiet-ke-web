@@ -17,37 +17,6 @@ p {
   margin: 8px 0;
 }
 
-/* nav */
-nav {
-  padding: 0 20px;
-  display: flex;
-  justify-content: space-between;
-  margin-top: 10px;
-}
-
-.search > ul {
-  display: flex;
-  width: fit-content;
-}
-
-.search > ul > li {
-  width: 128px;
-}
-
-.search > ul > li > a {
-  font-weight: 600;
-  line-height: 50px;
-}
-.search > ul > li:hover > a {
-  color: #00cc33;
-}
-
-.search > input {
-  padding: 8px 5px;
-  width: max-content;
-  width: 500px;
-}
-
 /* main */
 .main {
   display: flex;

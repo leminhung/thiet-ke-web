@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <style>
+    form > div {
+      display: flex;
+      margin: 16px;
+    }
+    form {
+      border: 1px solid teal;
+      width: 400px;
+      margin-left: 50%;
+      transform: translate(-50%, 0);
+      margin-top: 100px;
+    }
+    p {
+      min-width: 100px;
+    }
+    input {
+      font-size: 16px !important;
+      height: 30px;
+    }
+    button {
+      padding: 4px;
+      margin-left: 50%;
+      transform: translate(-50%, 0);
+      background-color: thistle;
+      border: 0;
+      cursor: pointer;
+      margin-bottom: 12px;
+    }
+  </style>
+</head>
+<body>
+  <form>
+    <div>
+      <p>Họ và tên: </p>
+      <input type="text" class="name">
+    </div>
+    <div>
+      <p>Địa chỉ: </p>
+      <input type="text" class="address">
+    </div>
+    <div>
+      <p>Giới tính: </p>
+      <label for="name">
+        Nam
+        <input type="radio">
+        Nữ
+        <input type="radio">
+        Khác
+        <input type="radio">
+      </label>
+    </div>
+    <div>
+      <p>Sở thích: </p>
+      <label for="name">
+        Sữa
+        <input type="checkbox">
+        Chè bưởi
+        <input type="checkbox">
+        Phở
+        <input type="checkbox">
+      </label>
+    </div>
+    <button>Kiem Tra</button>
+  </form>
+  <script src="index.js"></script>
+</body>
+</html>
