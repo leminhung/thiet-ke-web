@@ -7,7 +7,7 @@ btnElement.addEventListener("click", (e) => {
   if (addressValue.value === "" || nameValue.value === "")
     alert("Khong duoc bo trong");
   else {
-    const arr = addressValue.value.split(/(\s+)/).filter(function (e) {
+    const arr = nameValue.value.split(/(\s+)/).filter(function (e) {
       return e.trim().length > 0;
     });
     for (let i = 0; i < arr.length; i++) {
@@ -16,6 +16,6 @@ btnElement.addEventListener("click", (e) => {
         value += k + arr[i].substring(1) + " ";
       }
     }
-    addressValue.value = value;
+    nameValue.value = value;
   }
 });
