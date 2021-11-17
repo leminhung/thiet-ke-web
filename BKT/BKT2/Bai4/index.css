@@ -47,9 +47,8 @@ a {
   line-height: 40px;
   font-weight: 600;
   display: block;
-  text-align: center;
-  text-transform: uppercase;
   padding: 0 20px;
+  text-align: left !important;
 }
 
 .parent {
@@ -71,8 +70,8 @@ a {
 }
 
 .subnav li a {
-  text-transform: capitalize;
   display: block;
+  padding-left: 20px !important;
 }
 .subnav li:hover a {
   background-color: red;
@@ -86,14 +85,17 @@ form > div {
 }
 form {
   border: 1px solid teal;
-  width: 450px;
+  width: 550px;
   margin-left: 35%;
   transform: translate(-50%, 0);
   margin-top: 20px;
   margin-bottom: 20px;
+  font-weight: 600;
+  color: white;
+  background-color: blue;
 }
 p {
-  min-width: 200px;
+  min-width: 300px;
 }
 input {
   font-size: 16px !important;
@@ -112,4 +114,9 @@ button {
 /* main */
 .cus {
   display: flex;
+}
+
+h3 {
+  text-align: center;
+  margin: 12px 0;
 }
